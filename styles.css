@@ -2,6 +2,8 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .dice {
@@ -9,19 +11,43 @@
   display: inline-block;
 
 }
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white;             /* White text */
+  border: none;             /* No border */
+  padding: 16px 32px;        /* Increased padding for a bigger button */
+    font-size: 20px;           /* Smaller font size */
+  cursor: pointer;         /* Pointer cursor on hover */
+  border-radius: 8px;       /* Rounded corners */
+  margin-top: 20px;         /* Space between dice and button */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  
+}
+
+button:hover {
+  background-color: lawngreen; /* Slightly darker green on hover */
+}
+
 
 body {
   background-color: #393E46;
 }
 
-h1  {
+h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
 }
+h2{
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+  font-size: 2rem;
 
+
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
